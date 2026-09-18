@@ -11,3 +11,14 @@ p.ex1 {margin-bottom: 25px;}
 div {column-gap: 40px;}
 div {display: flex; flex-wrap: wrap;}
 p.b {font-family: Arial, Helvetica, sans-serif;}
+div {
+  border: 2px solid rgb(247, 242, 242);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+#welcome { background-color: rgb(238, 157, 191); border: 5px solid rgb(255, 255, 255); padding: 20px; }
+.highlight {
+  background-color: rgb(255, 180, 216);
+  color: rgb(255, 249, 253);
+  padding: 10px;
+}
