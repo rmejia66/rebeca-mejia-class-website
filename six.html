@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Garden</title>
+    <link rel="stylesheet" href="interaction.css">
+</head>
 
+<body>
+    <main class="garden">
+        <h1>Mood Garden</h1>
+
+        <p class="intro">
+            Choose a mood and watch the garden transform.
+        </p>
+
+        <div class="flower" id="flower">🌱</div>
+
+        <h2 id="mood-title">How are you feeling?</h2>
+
+        <p id="mood-message">
+            Pick a mood below to grow your garden.
+        </p>
+
+        <div class="buttons">
+            <button class="mood-btn happy" data-mood="happy">😊 Happy</button>
+            <button class="mood-btn calm" data-mood="calm">🌊 Calm</button>
+            <button class="mood-btn energetic" data-mood="energetic">⚡ Energetic</button>
+        </div>
+
+        <a href="index.html" class="home-link">← Back to Home</a>
+    </main>
+
+    <script src="interaction.js"></script>
+</body>
+</html>
