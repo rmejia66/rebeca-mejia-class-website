@@ -5,6 +5,5 @@ function changePhoto() {
     photo.src = "explode.png";
     button.textContent = "DESTROYED!";
     button.classList.add("destroyed");
-
-
+}
 button.addEventListener("click", changePhoto);
